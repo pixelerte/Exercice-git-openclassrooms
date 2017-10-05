@@ -3,7 +3,7 @@ using namespace std;
 
 //verification verifie si les nombre ne s ont >= 0
 
-int verification(int l, int h, int v){
+int verifer(int l, int h, int v){
     
     
     v = false;
@@ -54,8 +54,8 @@ int main()
     cout << "Hauteur du rectangle : ";
     cin >> hauteur;
     
-    //appel la fontion verification
-       vb = verification(largeur, hauteur, v);
+    //appel la fontion verifern
+       vb = verifer(largeur, hauteur, v);
 
     
     //cout << vb << "variable vb" << endl;
