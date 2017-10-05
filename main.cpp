@@ -3,7 +3,7 @@ using namespace std;
 
 //verification verifie si les nombre ne s ont >= 0
 
-int verifer(int l, int h, int v){
+int verifie(int l, int h, int v){
     
     
     v = false;
