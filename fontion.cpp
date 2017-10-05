@@ -15,7 +15,7 @@ void dessineRectangle(int l, int h)
     {
         for(int colonne(0); colonne < l; colonne++)
         {
-            cout << "*";
+            cout << "&";
         }
         cout << endl;
     }
